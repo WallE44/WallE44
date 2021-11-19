@@ -1,0 +1,21 @@
+import sys
+import math
+
+# Auto-generated code below aims at helping you parse
+# the standard input according to the problem statement.
+
+m = input().split('-')
+x = [' ']*len(m)
+
+for l in m:
+    if l[0].isupper():
+        i = int(l[1:])
+        x[i-1] = l[0]
+    else:
+        i = int(l[:-1])
+        x[i-1] = l[-1]
+
+print(*x, sep='')
+
+
+G1-M3-A2-E4 -> GAME
