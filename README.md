@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @WallE44
 - 👀 I’m interested in coding and data science
-- 🌱 I’m currently learning python 3
+- 🌱 I’m currently learning python, SQL, Pyspark, git. 
 
 
 <!---
